@@ -1,0 +1,88 @@
+﻿/*
+    Hauptfarbe: #1E90FF
+    Akzentfarbe: #333333
+*/
+
+
+body {
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+nav {
+    color: #1E90FF;
+    text-align: center;
+    position: sticky;
+    top: 20px;
+}
+
+.navigation {
+    list-style: none; /* keine Aufzählungszeichen */
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+h1 {
+    color: #1E90FF;
+    text-align: center;
+}
+
+h2 {
+    color: #1E90FF;
+    text-align: center;
+}
+
+h3 {
+    color: #1E90FF;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 75%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 80%;
+    resize: none;
+    margin: 5px 0px 5px 0px;
+}
+
+button {
+    background-color: #1E90FF;
+    border-radius: 45%;
+    margin-top: 10px;
+}
+
+    button:hover {
+        background-color: #333333;
+    }
+
+footer {
+    background-color: #333333;
+    color: #1E90FF;
+    text-align: center;
+    margin-top: 10px;
+}
